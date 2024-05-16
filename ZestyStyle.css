@@ -1,1 +1,18 @@
+body {
+  background: linear-gradient(to bottom right, #4DF306, #06F394, ##0AD2FA  );
+  background-size: 500%, 500%;
+  animation: gradientanimation 5s infinite;
+}
 
+@keyframes gradientanimation {
+  0% {
+    background-position: 0% 75%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 75%;
+  }
